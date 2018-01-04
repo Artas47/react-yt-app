@@ -1,11 +1,11 @@
 li{
     list-style: none;
-  
     cursor: pointer;
-    
+    margin: 15px;
 }
+
 li:hover{
-    background-color: grey;
+    background-color: #eee;
 }
 
 .search-bar{
@@ -18,7 +18,11 @@ li:hover{
  }
  
  .video-item img {
-     max-width: 64px;
+     max-width: 110px;
+ }
+
+ .video-list{
+     border: 1px solid #eee;
  }
  
  .video-detail .details {
@@ -26,11 +30,15 @@ li:hover{
      padding: 10px;
      border: 1px solid #ddd;
      border-radius: 4px;
+     
+ }
+
+ .video-detail {
+     width: 60%;
  }
  
  .list-group-item {
      cursor: pointer;
-     width: 300px;
  }
  
 
